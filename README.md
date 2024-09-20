@@ -1,10 +1,12 @@
-# This application works with using API: https://api.getgeoapi.com/v2/currency/convert?api_key=${APIKey}&from=${fromCur}&to=${toCur}&amount=${amount}&format=json,
+## This application works with using API: https://api.getgeoapi.com/v2/currency/convert?api_key=${APIKey}&from=${fromCur}&to=${toCur}&amount=${amount}&format=json,
 
-here we using our data:
+Here we using our data:
 
 1. APIKey: unic key, which we can get on official website: https://currency.getgeoapi.com/;
 
-2. fromCur (fromCurrency) (The base currency) and toCur (toCurrency) (The currency to convert to) and amount (The amount that needs to be converted. The default value is 1).
+2. - fromCur (fromCurrency) (The base currency);
+   - toCur (toCurrency) (The currency to convert to);
+   - amount (The amount that needs to be converted. The default value is 1).
 
 ## Available Scripts
 
@@ -17,11 +19,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
