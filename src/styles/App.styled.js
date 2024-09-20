@@ -1,12 +1,18 @@
 import styled from 'styled-components';
+import { SILVER, BLACK } from '../styles/Globals.styled';
 
-export const BodyWrapper = styled.div`
-  /* width: 1920px;
-  height: 100vh; */
-  min-height: 109px;
+export const MainWrapper = styled.div`
+  width: 100vw;
+  height: 100vh;
   margin: 0 auto;
-  background-color: #ffffff;
+  background-color: ${SILVER};
+`;
+export const BodyWrapper = styled.div`
+  height: min-content;
+  margin: 0 auto;
+  background-color: ${BLACK};
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
+  max-width: 500px;
 `;

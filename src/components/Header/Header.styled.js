@@ -5,7 +5,16 @@ export const HeaderWrapper = styled.div`
   width: 100%;
   min-height: 100px;
   background-color: ${SILVER};
-  margin: 0px auto 10px auto;
+  margin: 0px auto;
+  padding: 15px 20px;
+
+  h3 {
+    margin-top: 0;
+  }
+  p {
+    margin: 5px;
+    font-size: 20px;
+  }
 `;
 
 export const DateLine = styled.div`
@@ -15,8 +24,4 @@ export const DateLine = styled.div`
 export const CurrencyVal = styled.div`
   display: flex;
   flex-direction: column;
-
-  p {
-    margin: 5px;
-  }
 `;

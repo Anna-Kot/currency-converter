@@ -5,10 +5,12 @@ import * as s from './styles/App.styled';
 
 function App() {
   return (
-    <s.BodyWrapper>
+    <s.MainWrapper>
       <Header />
-      <CurrencyConverter />
-    </s.BodyWrapper>
+      <s.BodyWrapper>
+        <CurrencyConverter />
+      </s.BodyWrapper>
+    </s.MainWrapper>
   );
 }
 
