@@ -19,7 +19,7 @@ const Header = () => {
         setDate(data.updated_date);
       }
     } catch (error) {
-      console.log('Error:', error);
+      console.error('Error:', error);
     }
   };
 
