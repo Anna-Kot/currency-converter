@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { SILVER, BLACK } from '../styles/Globals.styled';
+import { SILVER, GREEN } from '../styles/Globals.styled';
 
 export const MainWrapper = styled.div`
   width: 100vw;
@@ -10,7 +10,6 @@ export const MainWrapper = styled.div`
 export const BodyWrapper = styled.div`
   height: min-content;
   margin: 0 auto;
-  background-color: ${BLACK};
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
