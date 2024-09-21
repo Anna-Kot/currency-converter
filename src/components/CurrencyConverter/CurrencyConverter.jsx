@@ -21,9 +21,9 @@ const CurrencyConverter = () => {
       const data = await res.json();
       if (data.status === 'success') {
         if (activeType === 1) {
-          setAmount2(data.rates[toCur].rate_for_amount);
+          setAmount2(parseFloat(data.rates[toCur].rate_for_amount).toFixed(2));
         } else {
-          setAmount1(data.rates[toCur].rate_for_amount);
+          setAmount1(parseFloat(data.rates[toCur].rate_for_amount).toFixed(2));
         }
       } else {
         console.error(data);
